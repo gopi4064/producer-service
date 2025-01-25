@@ -1,0 +1,2 @@
+# producer-service
+ The Producer Service is responsible for generating and sending messages to one or more message queues using JMS (Java Message Service). It allows dynamic configuration of queues and sends periodic health check messages to ensure system stability. The service facilitates communication between various systems by producing messages consumed by other services like the Consumer Service.
