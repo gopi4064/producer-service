@@ -66,11 +66,11 @@ to ensure system stability.
     cd producer-service
     ```
 
-3. Build the project:
-   Maven:
-        ```bash
-        mvn clean package
-        ```
+   3. Build the project:
+      Maven:
+      ```bash
+      mvn clean package
+      ```
 
 
 4. Configure the `application.properties` or `application.yml` file to specify your JMS provider, queue names, and other
